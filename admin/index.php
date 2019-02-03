@@ -92,6 +92,7 @@ function name($paso){
           <h5 class="sidenav-heading">Menu</h5>
           <ul id="side-main-menu" class="side-menu list-unstyled">      
             <li> <a href="#"> <i class="icon-screen"> </i>Contactos</a></li>
+            <li> <a href="trabajaConNosotros.php"> <i class="icon-screen"> </i>Trabaja con Nosotros</a></li>
         </div>      
       </div>
     </nav>

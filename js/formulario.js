@@ -30,8 +30,8 @@ $(document).ready(function() {
       var phone = document.getElementById("phone").value;
       var message = document.getElementById("message").value;
       var area = document.getElementById("area").value;
-      //var recaptcha = document.getElementById("g-recaptcha-response").value;
-      //alert("recaptcha js : "+recaptcha);
+      var recaptcha = document.getElementById("g-recaptcha-response1").value;
+     
   
       var data =
         "name=" +
@@ -43,9 +43,7 @@ $(document).ready(function() {
         "&message=" +
         message +
         "&tipo=0&area=" +
-        area;
-
-        //alert("data antes de ajax : "+data);
+        area+"&recaptcha="+recaptcha;;
 
       $.ajax({
         type: "POST",
@@ -77,7 +75,7 @@ $(document).ready(function() {
                       "&message=" +
                       message +
                       "&tipo=1&area="  +
-                      area;
+                      area+"&recaptcha="+recaptcha;;
                       
 
                     if (insert(data2) == false) {
@@ -186,6 +184,15 @@ $(document).ready(function() {
                 customClass: "animated tada"
               });
               break;
+            case "12":
+            Swal({
+              title: "Debe corregir lo siguiente",
+              type: "info",
+              text: "Ha ocurrido un error en la verificación del captcha, refresque el navegador e intente de nuevo",
+              animation: false,
+              customClass: "animated tada"
+            });
+            break;
           }
         }
       });

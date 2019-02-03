@@ -7,7 +7,6 @@
 <html lang="en">
 
   <head>
-
   <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132472756-1"></script>
     <script>
@@ -26,7 +25,7 @@
     <meta name="description" content="Somos una empresa emergente, dinámica, en constante desarrollo y crecimiento, hemos desarrollado un servicio integral en materias de seguridad privada buscando siempre la excelencia. Nuestra experiencia personal en empresas de distinta índole, nos permite saber con exactitud los requerimientos de nuestros clientes. Contamos con los mejores profesionales entre los cuales se incluyen ex funcionarios de alto mando de las FFAA., Ingenieros de distintos ámbitos de la empresa privada, asesores y guardia capacitados y con sus respectivas licencias otorgadas por la autoridad fiscalizadora, OS 10 de Carabineros.">
     
     <!-- meta tag para keywords -->
-    <meta name="keywords" content="Felmat seguridad, seguridad, guardias, guardias de seguridad, 0S10, servicios, ggss, cctv, aseo industrial, felmat, asesorias, servicios de guardias, prevencion de riesgo, vigilantes, protección, cuidado, atención, control, tranquilidad">  
+    <meta name="keywords" content="Felmat,Felmat seguridad, seguridad, guardias, guardias de seguridad, 0S10, servicios, ggss, cctv, aseo industrial, felmat, asesorias, servicios de guardias, prevencion de riesgo, vigilantes, protección, cuidado, atención, control, tranquilidad">  
 
     <meta name="author" content="Felmat Seguridad">
 
@@ -53,23 +52,24 @@
 
     <link href="css/animate.css" rel="stylesheet">
     <!--<script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.33.1/dist/sweetalert2.all.min.js"> </script>-->
-    
+    <link rel="stylesheet" href="css/lightbox.min.css">
+		<script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
     <!--<link rel="shortcut icon" href="img/felmat-ico.ico"/>-->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.33.1/dist/sweetalert2.all.min.js"></script>
     <!-- Optional: include a polyfill for ES6 Promises for IE11 and Android browser -->
     <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
-    <!--captcha script
-    <script src='https://www.google.com/recaptcha/api.js?render=6LffTYkUAAAAAEl9Nm5hnZYVdbU02AUrgq7JWhpX'></script>
--->
+
+    <!-- Ultima llave -->
+      <script src='https://www.google.com/recaptcha/api.js?render=6Le3VIkUAAAAAFikY_70XjXXwJs41vUuTfowe_-3'></script>
+    <!-- Ultima llave -->
+
   </head>
 
   <body id="page-top">
-    <!-- Ultima llave -->
-  <!--<script src='https://www.google.com/recaptcha/api.js?render=6Le3VIkUAAAAAFikY_70XjXXwJs41vUuTfowe_-3'></script>-->
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="https://www.felmatseguridad.cl/img/felmat-logo.png" width="51" height="33"></a> 
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="https://www.felmatseguridad.cl/img/felmat-logo.png" alt="Felmat Seguridad Logo" width="51" height="33"></a> 
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Felmat</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -104,11 +104,34 @@
       <div class="container my-auto">
         <div class="row">
           <div class="col-lg-10 mx-auto">
-            <img src="https://www.felmatseguridad.cl/img/felmat-bg.png" alt="logo" class="bg">
+            <img src="https://www.felmatseguridad.cl/img/felmat-bg.png" alt="logo Felmat Seguridad" class="bg">
           </div>
         </div>
       </div>
     </header>
+
+
+    <!-- AREA FOR VIDEO -->
+    <section id="video_explicativo">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Mira nuestro video explicativo</h2>
+            <hr class="my-4">
+            <p class="mb-5">
+            
+            <div class="video-container">
+              <iframe width="853" height="480" src="https://www.youtube.com/embed/Qv0pn8FcnXo?vq=hd1080" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" controls="2" allowfullscreen></iframe>
+            </div>
+
+            <br>
+            <b>Felmat seguridad, tu tranquilidad en nuestras manos.</b>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- AREA FOR VIDEOS -->
 
     <section class="bg-primary-feltmat" id="quienes_somos">
       <div class="container">
@@ -122,7 +145,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
-          <img class="img-fluid" src="https://www.felmatseguridad.cl/img/foto2.jpg" alt="">
+          <img class="img-fluid" src="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (9).jpg" alt="Felmat seguridad equipo">
           </div>
           <div class="col-lg-8 col-md-6 text-center" style="padding: 40px 0; text-align: center;">
             <p class="text-faded mb-4">
@@ -193,166 +216,47 @@
       
     </section>
 
-  <!-- seccion temporal imagenes luego borrar -->
+  <!-- seccion imagenes -->
   <section id="galeria">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Galería de imágenes / Próximamente</h2>
+          <h2 class="section-heading">Galería de imágenes</h2>
           <hr class="my-4">
+        </div>
+        
+        <div class="col-lg-12 text-center">
+            <section id="dg-container" class="dg-container">
+              <div class="dg-wrapper"> 
+                    <a class="example-image-link" href="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (1).jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (1).jpg" alt="Felmat Seguridad guardias"/></a>
+                    <a class="example-image-link" href="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (2).jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (2).jpg" alt="Equipo Felmat Seguridad"/></a>
+                    <a class="example-image-link" href="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (3).jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (3).jpg" alt="Instalaciones Felmat Seguridad"/></a>
+                    <a class="example-image-link" href="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (4).jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (4).jpg" alt="Felmat Seguridad trabajando"/></a>
+                    <a class="example-image-link" href="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (5).jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (5).jpg" alt="Maquinaria Felmat Seguridad"/></a>
+                    <a class="example-image-link" href="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (6).jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (6).jpg" alt="Vigilancia Felmat Seguridad"/></a>
+                    <a class="example-image-link" href="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (7).jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (7).jpg" alt="Maquinaria Felmat Seguridad"/></a>
+                    <a class="example-image-link" href="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (8).jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (8).jpg" alt="Servicios de seguridad Felmat Seguridad"/></a>
+                    <a class="example-image-link" href="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (9).jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (9).jpg" alt="Felmat Seguridad Nuestro equipo"/></a>
+                    <a class="example-image-link" href="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (10).jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (10).jpg" alt="Felmat seguridad Felices trabajando" /></a>
+                    <a class="example-image-link" href="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (11).jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (11).jpg" alt="Revisión Felmat Seguridad"/></a>
+                    <a class="example-image-link" href="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (12).jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (12).jpg" alt="Tecnologia de ultima generacion Felmat Seguridad"/></a>
+                    <a class="example-image-link" href="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (13).jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (13).jpg" alt="Felmat Seguridad en la vanguardia"/></a>
+                    <a class="example-image-link" href="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (14).jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (14).jpg" alt="Curso OS10 Felmat Seguridad"/></a>
+                    <a class="example-image-link" href="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (15).jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (15).jpg" alt="Servicios Felmat Seguridad"/></a>
+                    <a class="example-image-link" href="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (16).jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (16).jpg" alt="Oficinas y personal Felmat Seguridad"/></a>
+                    <a class="example-image-link" href="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (17).jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (17).jpg" alt="Felmat Seguridad"/></a>
+                    <a class="example-image-link" href="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (18).jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="https://www.felmatseguridad.cl/img/galeria/Felmat_Seguridad_galeria_ (18).jpg" alt="Protección, cuidado, seguridad Felmat seguridad"/></a>          
+              </div>
+            <nav>	
+              <span class="dg-prev">&lt;</span>
+              <span class="dg-next">&gt;</span>
+				    </nav>
+            </section>
         </div>
       </div>
      </div> 
   </section>
-  <!-- seccion temporal imagenes luego borrar -->
-
-  
-
- <!--seccion de galeria de imagenes
-
-    <section class="p-0" id="galeria">
-      <div class="container-fluid p-0">
-        <div class="row no-gutters popup-gallery">
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    Fin seccion galeria de imagenes -->
+  <!-- seccion imagenes -->
 
     <section class="bg-primary-feltmat" id="trabajos">
       <div class="col-lg-8 mx-auto text-center">
@@ -370,7 +274,7 @@
                   <div class="panel panel-default">
                       <div class="panel-thumbnail">
                         <a href="#" title="image 1" class="thumb">
-                          <img class="img-fluid mx-auto d-block" src="https://www.felmatseguridad.cl/img/trabajos/ohl.jpg" alt="slide 1" width="299.75" height="199.83">
+                          <img class="img-fluid mx-auto d-block" src="https://www.felmatseguridad.cl/img/trabajos/ohl.jpg" alt="Felmat Seguridad OHL" width="299.75" height="199.83">
                         </a>
                       </div>
                     </div>
@@ -379,7 +283,16 @@
                   <div class="panel panel-default">
                       <div class="panel-thumbnail">
                         <a href="#" title="image 3" class="thumb">
-                        <img class="img-fluid mx-auto d-block" src="https://www.felmatseguridad.cl/img/trabajos/alborada.jpg" alt="slide 2" width="299.75" height="199.83">
+                        <img class="img-fluid mx-auto d-block" src="https://www.felmatseguridad.cl/img/trabajos/alborada.jpg" alt="Felmat seguridad Alborada" width="299.75" height="199.83">
+                        </a>
+                      </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-3 ">
+                  <div class="panel panel-default">
+                      <div class="panel-thumbnail">
+                        <a href="#" title="image 3" class="thumb">
+                        <img class="img-fluid mx-auto d-block" src="https://www.felmatseguridad.cl/img/trabajos/GCVV.jpg" alt="Felmat Seguridad Grupo Claro Vicuña" width="299.75" height="199.83">
                         </a>
                       </div>
                     </div>
@@ -388,7 +301,7 @@
                   <div class="panel panel-default">
                       <div class="panel-thumbnail">
                         <a href="#" title="image 4" class="thumb">
-                        <img class="img-fluid mx-auto d-block" src="https://www.felmatseguridad.cl/img/trabajos/dragados.jpg" alt="slide 3" width="299.75" height="199.83">
+                        <img class="img-fluid mx-auto d-block" src="https://www.felmatseguridad.cl/img/trabajos/dragados.jpg" alt="Felmat Seguridad Dragados" width="299.75" height="199.83">
                         </a>
                       </div>
                     </div>
@@ -397,7 +310,7 @@
                     <div class="panel panel-default">
                       <div class="panel-thumbnail">
                         <a href="#" title="image 5" class="thumb">
-                        <img class="img-fluid mx-auto d-block" src="https://www.felmatseguridad.cl/img/trabajos/achs.jpg" alt="slide 4" width="299.75" height="199.83">
+                        <img class="img-fluid mx-auto d-block" src="https://www.felmatseguridad.cl/img/trabajos/achs.jpg" alt="Felmat Seguridad Achs" width="299.75" height="199.83">
                         </a>
                       </div>
                     </div>
@@ -406,7 +319,7 @@
                   <div class="panel panel-default">
                       <div class="panel-thumbnail">
                         <a href="#" title="image 6" class="thumb">
-                          <img class="img-fluid mx-auto d-block" src="https://www.felmatseguridad.cl/img/trabajos/dvc.jpg" alt="slide 5" width="299.75" height="199.83">
+                          <img class="img-fluid mx-auto d-block" src="https://www.felmatseguridad.cl/img/trabajos/dvc.jpg" alt="Felmat Seguridad DVC" width="299.75" height="199.83">
                         </a>
                       </div>
                     </div>
@@ -415,7 +328,7 @@
                   <div class="panel panel-default">
                       <div class="panel-thumbnail">
                         <a href="#" title="image 7" class="thumb">
-                          <img class="img-fluid mx-auto d-block" src="https://www.felmatseguridad.cl/img/trabajos/vinci.jpg" alt="slide 6" width="299.75" height="199.83">
+                          <img class="img-fluid mx-auto d-block" src="https://www.felmatseguridad.cl/img/trabajos/vinci.jpg" alt="Felmat Seguridad Vinci" width="299.75" height="199.83">
                         </a>
                       </div>
                     </div>
@@ -424,7 +337,7 @@
                   <div class="panel panel-default">
                       <div class="panel-thumbnail">
                         <a href="#" title="image 8" class="thumb">
-                          <img class="img-fluid mx-auto d-block" src="https://www.felmatseguridad.cl/img/trabajos/valdivia.jpg" alt="slide 7" width="299.75" height="199.83">
+                          <img class="img-fluid mx-auto d-block" src="https://www.felmatseguridad.cl/img/trabajos/valdivia.jpg" alt="Felmat Seguridad Municipalidad de valdivia" width="299.75" height="199.83">
                         </a>
                       </div>
                     </div>
@@ -495,84 +408,17 @@
             <br>
             <div id="success"></div>
             <div class="form-group">
-              <!--<input type="text" id="g-recaptcha-response" name="g-recaptcha-response">-->
               <button class="btn btn-primary btn-xl" id="sendMessageButton">Enviar</button>
             </div>
-           <!-- <input type="text" id="g-recaptcha-response" name="g-recaptcha-response"/>
-            <input type="hidden" name="action" value="validate_captcha"> -->
+
+            <input type="hidden" id="g-recaptcha-response1" name="g-recaptcha-response1"/>
+            <input type="hidden" name="action" value="validate_captcha">  
+           
           </form>
         </div>
         </div>
       </div>
     </section>
-
-    <!--<section id="contacto">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading">Contáctanos!</h2>
-            <hr class="my-4">
-            <p class="mb-5">Puedes ponerte en contacto con nosotros al completar este simple formulario</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 ml-auto text-center">
-            <i class="fas fa-phone fa-3x mb-3 sr-contact-1"></i>
-            <p>123-456-6789</p>
-          </div>
-          <div class="col-lg-4 mr-auto text-center">
-            <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
-            <p>
-              <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>-->
-
-    <!-- Footer -->
-<!--
-    <footer class="bg-primary-feltmat footer text-center">
-      <div class="container">
-        <div class="row">
-         
-          <div class="col-md-6 mb-5 mb-lg-0">
-            <h4 class="section-heading text-white" >Oficina Central</h4>
-            <p class="text-faded mb-4"><a class="text-white" href="https://goo.gl/maps/A8jpZJy8k5s" target="_blank">Chacra de Carmen, Parcela 2F, Colina</a><br>
-            <a style="color: white" href="mailto:contacto@felmatseguridad.cl" target="_top">contacto@felmatseguridad.cl</a> <br>
-            <a style="color: white" href="tel:+56956999553">+56 9 5699 9553</a> </p>
-          </div>
-          
-          <div class="col-md-6 mb-5 mb-lg-0">
-            <h4 class="section-heading text-white">Redes Sociales</h4>
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="https://goo.gl/BCKt6g">
-                  <i class="fab fa-fw fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="https://goo.gl/x68BTg">
-                  <i class="fab fa-fw fa-instagram"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="https://goo.gl/gcF7SY">
-                  <i class="fab fa-fw fa-linkedin-in"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fab fa-fw fa-youtube"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          
-        </div>
-      </div>
-    </footer>
---> 
 
     <!--footer starts from here-->
 <footer class="footer">
@@ -585,6 +431,8 @@
         <p><i class="fa fa-location-arrow"></i> <a class="text-white" href="https://goo.gl/maps/CNEaDLdAWo32" target="_blank"> Domingo caneleo trincado n° 925, Buin</a> </p>
         <p><i class="fa fa-phone"></i>  <a style="color: white" href="tel:+56934071924"> +56 9 3407 1924</a>  </p>
         <p><i class="fa fa fa-envelope"></i> <a style="color: white" href="mailto:contacto@felmatseguridad.cl" target="_top"> contacto@felmatseguridad.cl</a>  </p>
+        <br>
+        <p><button  class="btn btn-primary btn-xl"><a style="color: white" href="trabaja_con_nosotros.php">Trabaja con nosotros!</a></button></p>
       </div>
 
     <!-- google map iframe -->
@@ -606,13 +454,13 @@
     
   
   <!--foote_bottom_ul_amrc ends here-->
-
     <p class="text-center">Copyright @<?php echo date("Y"); ?> | Desarrollado por <a href="tel:+56975144189">&lt;F1.EXE/></a></p>
 
     <ul class="social_footer_ul">
       <li><a target="_blank" href="https://goo.gl/BCKt6g"><i class="fab fa-facebook-f"></i></a></li>
       <li><a target="_blank" href="https://goo.gl/gcF7SY"><i class="fab fa-linkedin"></i></a></li>
       <li><a target="_blank" href="https://goo.gl/x68BTg"><i class="fab fa-instagram"></i></a></li>
+      <li><a target="_blank" href="https://www.youtube.com/channel/UCsnd7b1w-EcC3ArIHN9z87Q"><i class="fab fa-youtube"></i></a></li>
     </ul>
   <!--social_footer_ul ends here-->
   </div>
@@ -641,40 +489,28 @@
     <script src="js/creative.min.js"></script>
     <script src="js/formulario.js"></script>
     <script src="js/slider.js"></script>
-    
+    <script src="js/lightbox-plus-jquery.min.js"></script>
     <!-- page top js -->
     <script src="js/page_top.js"></script>
-            
-    <!-- captcha script 
-    <script>
-      grecaptcha.ready(function() {
-        grecaptcha.execute('<?php echo $site_key;?>', {action: 'validate_captcha'})
-        .then(function(token) {
-
-            document.getElementById('g-recaptcha-response').value =  token;
-
-        });
-      });
-    </script>-->
-
-<script>
-grecaptcha.ready(function() {
-grecaptcha.execute('6LffTYkUAAAAAEl9Nm5hnZYVdbU02AUrgq7JWhpX', {action: 'validate_captcha'})
-.then(function(token) {
-  document.getElementById('g-recaptcha-response').value =  token;
-});
-});
-</script> 
-
-<!-- Ultimo -->
-    <!--<script>
+  <script type="text/javascript" src="js/jquery.gallery.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#dg-container').gallery({
+					autoplay	:	true
+				});
+			});
+		</script/>
+    <!--Ultimo captcha script -->
+     <script>
       grecaptcha.ready(function() {
         grecaptcha.execute('6Le3VIkUAAAAAFikY_70XjXXwJs41vUuTfowe_-3', {action: 'homepage'})
         .then(function(token) {
-          document.getElementById('g-recaptcha-response').value=token;
+          document.getElementById('g-recaptcha-response1').value=token;
         });
       });
-    </script>-->
+    </script>
+    <!--Ultimo captcha script -->
+
   </body>
 
 </html>

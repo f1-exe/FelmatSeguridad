@@ -39,6 +39,7 @@ function validaClave($nombre, $clave){
   }
 }
 
+//Se listan los contactos que se encuentran cargados en la BD
 function listarContacto(){
   global $conn;
   $query = "SELECT * FROM contacto";
@@ -47,9 +48,16 @@ function listarContacto(){
   return $result;
 }
 
+//Se listan los Trabaja con Nosotros que se encuentran cargados en la BD
+function listarTCN(){
+  global $conn;
+  $query = "SELECT * FROM tcn";
+
+  $result = mysqli_query($conn,$query);
+  return $result;
+}
+
 //@felmat -  cambia el estado de la gestion de los contactos
-
-
 function cambiarEstadoGestion($estado,$id){
 
   global $conn;
