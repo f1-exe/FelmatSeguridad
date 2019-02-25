@@ -351,3 +351,86 @@ function notificaciones(){
 
 }
 
+//FUNCIONES CAMPÑA PUBLICITARIA
+function validaCP($id){
+  global $conn;
+  $noti = false;
+  $query = "SELECT COUNT(*) FROM estcam WHERE correo = '.$id.'";
+  $resp = mysqli_query($conn, $query);
+
+  while($row = mysqli_fetch_row($resp)){
+    $noti = true;
+  }
+    return $noti;
+}
+
+function insertCP($id){
+  global $conn;
+  $query = "INSERT INTO estcam (correo, cantidad, fecha) VALUES ('".$id."',1,NULL)";
+  $resp = mysqli_query($conn, $query);
+
+  if($resp){
+    return true;
+  }else{
+    echo "NO".mysqli_error($conn);
+    return false;
+  }
+}
+
+function validaCantidadCP($id){
+  global $conn;
+  $noti = 0;
+  $query = "SELECT cantidad FROM estcam WHERE correo = '.$id.'";
+  $resp = mysqli_query($conn, $query);
+
+  while($row = mysqli_fetch_row($resp)){
+    $noti = $row['cantidad'];
+  }
+    return $noti;
+}
+
+function actualizaCantidadCP($id, $cantidad){
+  global$conn;
+  $query = "UPDATE estcam SET cantidad = ".$cantidad." WHERE correo = '".$id."';";
+
+  $resp = mysqli_query($conn, $query);
+
+  if($resp){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+function enviarCorreoCP(){
+
+  require_once 'lib/sm/lib/swift_required.php';
+
+  $pEmailGmail = 'contacto@felmatseguridad.cl';
+  $pPasswordGmail = 'Felmatseguridad2018.';
+  $pFromName = 'Felmat Contacto'; //display name
+  $pTo = trim($mail_user);
+  $pSubjetc = $asunto;
+  $template = 'plantillas/prueba.html';
+
+  $pBody = file_get_contents($template);
+
+  $transport = Swift_SmtpTransport::newInstance('mail.felmatseguridad.cl', 587, 'tls')
+
+          ->setUsername($pEmailGmail)
+
+          ->setPassword($pPasswordGmail);
+
+  $mMailer = Swift_Mailer::newInstance($transport);
+  $mEmail = Swift_Message::newInstance();
+  $mEmail->setSubject($pSubjetc);
+  $mEmail->setTo($pTo);
+  $mEmail->setFrom(array($pEmailGmail => $pFromName));
+  $mEmail->setBody($pBody, 'text/html');
+
+  if($mMailer->send($mEmail) == 1){
+    return true;
+  }else{
+    return false;
+  }
+}
