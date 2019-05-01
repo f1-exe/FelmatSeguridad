@@ -354,19 +354,23 @@ function notificaciones(){
 //FUNCIONES CAMPÑA PUBLICITARIA
 function validaCP($id){
   global $conn;
-  $noti = false;
-  $query = "SELECT COUNT(*) FROM estcam WHERE correo = '.$id.'";
+  $query = "SELECT COUNT(*) as cantidad FROM estcam WHERE correo = '".$id."' ";
+  //echo "--> valida cp".$query;
+  
   $resp = mysqli_query($conn, $query);
 
-  while($row = mysqli_fetch_row($resp)){
-    $noti = true;
-  }
-    return $noti;
+  $row = mysqli_fetch_row($resp);
+    if($row[0] > 0){
+      return true;
+    }else{
+      return false;
+    }
 }
 
 function insertCP($id){
   global $conn;
   $query = "INSERT INTO estcam (correo, cantidad, fecha) VALUES ('".$id."',1,NULL)";
+  //echo "-->insertCP".$query;
   $resp = mysqli_query($conn, $query);
 
   if($resp){
@@ -380,18 +384,20 @@ function insertCP($id){
 function validaCantidadCP($id){
   global $conn;
   $noti = 0;
-  $query = "SELECT cantidad FROM estcam WHERE correo = '.$id.'";
+  $query = "SELECT cantidad FROM estcam WHERE correo = '".$id."' ";
+  //echo "--> valdiacantidadCP".$query;
   $resp = mysqli_query($conn, $query);
 
   while($row = mysqli_fetch_row($resp)){
-    $noti = $row['cantidad'];
+    $noti = $row[0];
   }
     return $noti;
 }
 
 function actualizaCantidadCP($id, $cantidad){
   global$conn;
-  $query = "UPDATE estcam SET cantidad = ".$cantidad." WHERE correo = '".$id."';";
+  $query = "UPDATE estcam SET cantidad = ".$cantidad." WHERE correo = '".$id."' ";
+  //echo "-->actualizarCantidadCP".$query;
 
   $resp = mysqli_query($conn, $query);
 
@@ -409,7 +415,7 @@ function enviarCorreoCP(){
   $pEmailGmail = 'contacto@felmatseguridad.cl';
   $pPasswordGmail = 'Felmatseguridad2018.';
   $pFromName = 'Felmat Contacto'; //display name
-  $pTo = trim($mail_user);
+  $pTo = trim("no.efects@hotmail.com");
   $pSubjetc = $asunto;
   $template = 'plantillas/prueba.html';
 

@@ -429,7 +429,7 @@
         <!--headin5_amrc-->
         <p class="mb10">Si hablamos de seguridad, simplemente somos lo que estás buscando, una empresa joven, dinámica y accesible. Contáctanos <br> Felmat Seguridad, tu tranquilidad en nuestras manos.</p>
         <p><i class="fa fa-location-arrow"></i> <a class="text-white" href="https://goo.gl/maps/CNEaDLdAWo32" target="_blank"> Domingo caneleo trincado n° 925, Buin</a> </p>
-        <p><i class="fa fa-phone"></i>  <a style="color: white" href="tel:+56934071924"> +56 9 3407 1924</a>  </p>
+        <p><i class="fa fa-phone"></i>  <a style="color: white" href="tel:+56956999553"> +56 9 5699 9553</a>  </p>
         <p><i class="fa fa fa-envelope"></i> <a style="color: white" href="mailto:contacto@felmatseguridad.cl" target="_top"> contacto@felmatseguridad.cl</a>  </p>
         <br>
         <p><button  class="btn btn-primary btn-xl"><a style="color: white" href="trabaja_con_nosotros.php">Trabaja con nosotros!</a></button></p>
@@ -499,7 +499,7 @@
 					autoplay	:	true
 				});
 			});
-		</script/>
+		</script>
     <!--Ultimo captcha script -->
      <script>
       grecaptcha.ready(function() {
