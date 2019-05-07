@@ -1,147 +1,132 @@
-<?php 
-
-  //$site_key ='6LfkOokUAAAAAJ5PNt_LPERD2NlMeJ8XxsudtGMZ';
-
-?>
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- meta tag para descripcion -->
-    <meta name="description" content="Trabaja con nosotros en Felmat Seguridad, sé parte de nuestro equipo, llenando el formulario de postulación">
-    
-    <!-- meta tag para keywords -->
-    <meta name="keywords" content="Felmat, Felmat Seguridad, Trabaja con nosotros, Trabajar, Empleo, Guardia de seguridad,trabajos en seguridad privada, trabajo de guardia de seguridad, seguridad privada, empleos de guardia de seguridad, OS10, envia tu curriculum">  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <meta name="author" content="Felmat Seguridad">
-
-    <title>Felmat Seguridad | Servicios</title>
-    
-    <link href="https://www.felmatseguridad.cl/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
-    <link rel="icon" href="https://www.felmatseguridad.cl/img/favicon.ico" type="image/x-icon" >
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Animacion SweetAlert -->
-    <link href="css/animate.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
-    <link href="css/creative.min.css" rel="stylesheet">
-    <link href="css/felmat.css" rel="stylesheet">
-    
-<!-- Font Icon -->
-    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
-
-    <!-- Main css -->
-    <link rel="stylesheet" href="css/style.css">
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <title>Hello, world!</title>
 
     <style>
+     
+
+
+
+
+ 
+
+
+
+
 
 
     </style>
 
+
   </head>
+  <body>
+    <h1>Hello, world!</h1>
 
-  <body id="page-top">
-	<div class="new-header">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4 m-dis">
-				
-				</div>
-				<div class="col-md-4 col-sm-6 col-6 logo">
-					<a href="https://www.felmatseguridad.cl">
-                        <img src="https://www.felmatseguridad.cl/img/felmat-logo.png" alt="">
-					</a>
-				</div>
-				<div class="col-md-4 col-sm-6 col-6 home-btn">
-					<a href="https://www.felmatseguridad.cl"><i class="fas fa-chevron-circle-left"></i> Volver al Inicio</a>
-				</div>    
-			</div>
-		</div>
-	</div>
-	
-    <!--new content for services goes here -->
+    <div class="container">
+      <div class="row">
 
-    
-
-
-    <!--new content for services goes here -->
-
-	 <!--footer starts from here-->
-<footer class="footer">
-  <div class="container bottom_border">
-    <div class="row">
-      <div class=" col-sm-4 col-md col-sm-4  col-12 col">
-        <h5 class="headin5_amrc col_white_amrc pt2">Acerca de nosotros</h5>
-        <!--headin5_amrc-->
-        <p class="mb10">Si hablamos de seguridad, simplemente somos lo que estás buscando, una empresa joven, dinámica y accesible. Contáctanos <br> Felmat Seguridad, tu tranquilidad en nuestras manos.</p>
-        <p><i class="fa fa-location-arrow"></i> <a class="text-white" href="https://goo.gl/maps/CNEaDLdAWo32" target="_blank"> Domingo caneleo trincado n° 925, Buin</a> </p>
-        <p><i class="fa fa-phone"></i>  <a style="color: white" href="tel:+56934071924"> +56 9 3407 1924</a>  </p>
-        <p><i class="fa fa fa-envelope"></i> <a style="color: white" href="mailto:contacto@felmatseguridad.cl" target="_top"> contacto@felmatseguridad.cl</a>  </p>
+          <div class="container-fluid">
+              <h1 class="text-center mb-3">Bootstrap Multi-Card Carousel</h1>
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner row w-100 mx-auto">
+                  <div class="carousel-item col-md-3 active">
+                    <div class="card">
+                      <img class="card-img-top img-fluid" src="http://placehold.it/800x600/f44242/fff" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title">Card 1</h4>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item col-md-3">
+                    <div class="card">
+                      <img class="card-img-top img-fluid" src="http://placehold.it/800x600/418cf4/fff" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title">Card 2</h4>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item col-md-3">
+                    <div class="card">
+                      <img class="card-img-top img-fluid" src="http://placehold.it/800x600/3ed846/fff" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title">Card 3</h4>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item col-md-3">
+                    <div class="card">
+                      <img class="card-img-top img-fluid" src="http://placehold.it/800x600/42ebf4/fff" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title">Card 4</h4>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item col-md-3">
+                    <div class="card">
+                      <img class="card-img-top img-fluid" src="http://placehold.it/800x600/f49b41/fff" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title">Card 5</h4>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item col-md-3">
+                    <div class="card">
+                      <img class="card-img-top img-fluid" src="http://placehold.it/800x600/f4f141/fff" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title">Card 6</h4>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item col-md-3">
+                    <div class="card">
+                      <img class="card-img-top img-fluid" src="http://placehold.it/800x600/8e41f4/fff" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title">Card 7</h4>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+        
       </div>
-
-    <!-- google map iframe -->
-      <div class=" col-sm-12 col-md  col-6 col">
-        <div class="container-fluid">
-              <div class="row">
-            <iframe class="well well-sm col-xs-8" width="707" height="282" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1581.7215011085482!2d-70.75156029108602!3d-33.738880634756505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96632113e5eda2ad%3A0x320c8f80cb2dbc91!2sBarrio+Los+Ciruelos%2C+Buin%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses-419!2scl!4v1547523785585"></iframe>
-          </div>
-        </div>
-      </div>
-    <!-- google map iframe -->
     </div>
-  </div>
-
-  <hr>
-
-  <div class="container">  
-  <!--foote_bottom_ul_amrc ends here-->
-    <p class="text-center">Copyright @<?php echo date("Y"); ?> | Desarrollado por <a href="tel:+56975144189">&lt;F1.EXE/></a></p>
-
-    <ul class="social_footer_ul">
-      <li><a target="_blank" href="https://goo.gl/BCKt6g"><i class="fab fa-facebook-f"></i></a></li>
-      <li><a target="_blank" href="https://goo.gl/gcF7SY"><i class="fab fa-linkedin"></i></a></li>
-      <li><a target="_blank" href="https://goo.gl/x68BTg"><i class="fab fa-instagram"></i></a></li>
-      <li><a target="_blank" href="https://www.youtube.com/channel/UCsnd7b1w-EcC3ArIHN9z87Q"><i class="fab fa-youtube"></i></a></li>
-    </ul>
-  <!--social_footer_ul ends here-->
-  </div>
-
-</footer>
-
-<!-- page top -->
-<a href="#0" class="cd-top js-cd-top">Top</a>
-    
-    <!-- barra negra luego del footer -->
-    <div class="copyright py-4 text-center bg-dark text-white">
-      <div class="container">
-      </div>
-    </div>
-	
-<!-- JS -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.33.1/dist/sweetalert2.all.min.js"></script>
-    <!-- Optional: include a polyfill for ES6 Promises for IE11 and Android browser -->
-    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
-
-    <script>
-   
-    
-    </script>
 
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
-  
-  </html>
+</html>
