@@ -137,7 +137,7 @@
     content: '';
     display: block;
     opacity: .6;
-    background-color: #000;
+    /* background-color: #000; */
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
     border-radius: 10px;
@@ -292,10 +292,10 @@
           <div class="cols">
               <div class="col-md-3 mt-3" ontouchstart="this.classList.toggle('hover');">
                 <div class="container">
-                  <div class="front" style="background-image: url(img/lock.JPG)">
+                  <div class="front" style="background-image: url(img/servicios/seguridad.jpg)">
                     <div class="inner">
-                      <p>Seguridad</p>
-                      <span>Personal</span>
+                      <!-- <p>Seguridad</p>
+                      <span>Personal</span> -->
                     </div>
                   </div>
                   <div class="back">
@@ -309,10 +309,10 @@
 
               <div class="col-md-3 mt-3" ontouchstart="this.classList.toggle('hover');">
                   <div class="container">
-                    <div class="front" style="background-image: url(img/lock.JPG)">
+                    <div class="front" style="background-image: url(img/servicios/asesoria.jpg)">
                       <div class="inner">
-                        <p>Asesorias</p>
-                        <span>Capacitación</span>
+                        <!-- <p>Asesorias</p>
+                        <span>Capacitación</span> -->
                       </div>
                     </div>
                     <div class="back">
@@ -326,10 +326,10 @@
 
               <div class="col-md-3 mt-3" ontouchstart="this.classList.toggle('hover');">
                   <div class="container">
-                    <div class="front" style="background-image: url(img/lock.JPG)">
+                    <div class="front" style="background-image: url(img/servicios/aseo.jpg)">
                       <div class="inner">
-                        <p>Aseo Industrial</p>
-                        <span>Servicios</span>
+                        <!-- <p>Aseo Industrial</p>
+                        <span>Servicios</span> -->
                       </div>
                     </div>
                     <div class="back">
@@ -343,10 +343,10 @@
 
               <div class="col-md-3 mt-3" ontouchstart="this.classList.toggle('hover');">
                   <div class="container">
-                    <div class="front" style="background-image: url(img/lock.JPG)">
+                    <div class="front" style="background-image: url(img/servicios/tecnologia.jpg)">
                       <div class="inner">
-                        <p>Soluciones Tecnológicas</p>
-                        <span>Tecnología</span>
+                        <!-- <p>Soluciones Tecnológicas</p>
+                        <span>Tecnología</span> -->
                       </div>
                     </div>
                     <div class="back">

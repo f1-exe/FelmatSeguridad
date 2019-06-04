@@ -2,9 +2,9 @@
 
   //$site_key ='6LfkOokUAAAAAJ5PNt_LPERD2NlMeJ8XxsudtGMZ';
 
-  echo '<a href="servicios.php">ir aservicios</a>';
+  // echo '<a href="servicios.php">ir aservicios</a>';
 
-  exit;
+  // exit;
 
 ?>
 <!DOCTYPE html>
@@ -12,14 +12,14 @@
 
   <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132472756-1"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132472756-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
       gtag('config', 'UA-132472756-1');
-    </script>
+    </script> -->
 
 
     <meta charset="utf-8">
@@ -66,6 +66,13 @@
     <!-- Ultima llave -->
       <script src='https://www.google.com/recaptcha/api.js?render=6Le3VIkUAAAAAFikY_70XjXXwJs41vUuTfowe_-3'></script>
     <!-- Ultima llave -->
+
+    <style>
+        .responsive {
+          width: 100%;
+          height: auto;
+        }
+    </style>
 
   </head>
 
@@ -196,14 +203,18 @@
 
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
+          <div class="col-lg-12 col-md-12 text-center">
+            <!-- <div class="service-box mt-5 mx-auto">
               <i class="fas fa-4x fas fa-user-lock text-primary mb-3 sr-icon-1"></i>
               <h3 class="mb-3 text-white">Seguridad</h3>
               <p class="mb-0 text-white">Dotación de GGSS, Tecnología de seguridad, Instalación y control de CCTV.</p>
-            </div>
+              
+            </div> -->
+            <a href="servicios.php">
+              <img src="img/banner-servicios.jpg" alt="Felmat seguridad servicios" class="responsive">
+            </a>
           </div>
-          <div class="col-lg-4 col-md-6 text-center">
+          <!-- <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fas fa-4x fas fa-chalkboard-teacher text-primary mb-3 sr-icon-2"></i>
               <h3 class="mb-3 text-white">Asesorias </h3>
@@ -216,8 +227,9 @@
               <h3 class="mb-3 text-white">Aseo Industrial</h3>
               <p class="mb-0 text-white">Aseo industrial, dotación de personal.</p>
             </div>
-          </div>
-      
+          </div> -->
+        </div>
+      </div>
     </section>
 
   <!-- seccion imagenes -->
